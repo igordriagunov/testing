@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  margin-top: 15px;
+}
+
+.navbar-block {
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.navbar__info {
+  display: flex;
+}
+
+.navbar__contacts {
+  display: inline-grid
+}
+
+.navbar__social {
+  margin-left: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
