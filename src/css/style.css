@@ -6,6 +6,7 @@ body {
   padding: 73px;
   margin-top: 30px;
   height: 1500px;
+  background: linear-gradient(85deg, #ffffff, #a8a8a8);
 }
 
 .navbar {
@@ -19,6 +20,7 @@ body {
   color: #000;
   background: linear-gradient(45deg, #1d1d1d, #222222);
 }
+
 
 .navbar a {
   float: left;
@@ -56,7 +58,6 @@ body {
 
 .resume {
   padding: 15px;
-  background: #fff;
 }
 
 .resume-block {

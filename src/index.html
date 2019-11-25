@@ -9,6 +9,8 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+
 </head>
 
 <body>
@@ -30,7 +32,7 @@
       </div>
     </div>
   </div>
-  <div class="main">
+  <div class="main wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.1s" id="resume">
     <section class="resume">
       <div class="container">
         <div class="resume-about resume-block">
@@ -51,10 +53,10 @@
               <li>HTML/CSS</li>
               <li>Bootstrap</li>
               <li>mySQL</li>
+              <li>Git</li>
               <li>Java Core</li>
               <li>Python</li>
               <li>Pytest + Selenium</li>
-              <li>Git</li>
               <li>IDE PyCharm, IDEA</li>
               <li>Bug tracking systems</li>
               <li>Agile/Scrum</li>
@@ -90,7 +92,10 @@
 
   </div>
 
+ <script src="js/wow.min.js"></script>
+ <script>
+   new WOW().init();
+ </script>
 
 </body>
-
 </html>
